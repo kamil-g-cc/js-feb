@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html charset="utf-8">
+<head>
+  <script defer src="js/main.js"></script>
+</head>
 <body>
+    <h1 id="hello">Witaj</h1>
+    <form method="POST" action="#">
+        <input id="nameCount" type="hidden" value="1" name="nameCount">
+        <table id="table">
+        <tr><td><input name="name1" type="text" placeholder="Input Name"></td><td><input name="age1" type="text" placeholder="Input age"></td></tr>
+        <tr><td colspan="2"><input id="DodajNowegoButton" type="button" onclick="dodajNowegoButtonClick()" value="Dodaj nowego"></td></tr>
+        </table>
+    </form>
 </body>
 </html>
